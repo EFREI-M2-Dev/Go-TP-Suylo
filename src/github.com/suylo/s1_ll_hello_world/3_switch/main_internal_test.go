@@ -13,7 +13,7 @@ func TestGreet(t *testing.T) {
 	expectedGreeting := "Hello, World!"
 
 	// Phase d'exécution : on appelle la fonction à tester
-	greeting := greet()
+	greeting := greet("fr")
 
 	// Phase décision : On vérifie si le résultat est conforme aux attentes
 	if greeting != expectedGreeting {
